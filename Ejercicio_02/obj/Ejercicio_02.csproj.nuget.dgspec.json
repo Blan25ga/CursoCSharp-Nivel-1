@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\anotaciones\\anotaciones.csproj": {}
+    "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\ejercicio_02\\Ejercicio_02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\anotaciones\\anotaciones.csproj": {
+    "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\ejercicio_02\\Ejercicio_02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\anotaciones\\anotaciones.csproj",
-        "projectName": "anotaciones",
-        "projectPath": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\anotaciones\\anotaciones.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\ejercicio_02\\Ejercicio_02.csproj",
+        "projectName": "Ejercicio_02",
+        "projectPath": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\ejercicio_02\\Ejercicio_02.csproj",
         "packagesPath": "C:\\Users\\Gabriel Blanco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\anotaciones\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\ejercicio_02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Blanco\\AppData\\Roaming\\NuGet\\NuGet.Config"
