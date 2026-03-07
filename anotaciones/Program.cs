@@ -2,6 +2,8 @@
 
 //! ---COMANDOS DE git ---
 
+c:\Users\Gabriel Blanco\Desktop\comandos git.png
+
 
 //* 📌 Lista paso a paso de comandos Git más usados
 
