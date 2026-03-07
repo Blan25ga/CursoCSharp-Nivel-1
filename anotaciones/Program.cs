@@ -1,8 +1,104 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+//! ---COMANDOS DE git ---
 
 
-// --- Comandos de cd ---
+//* 📌 Lista paso a paso de comandos Git más usados
+
+/*🔹 Inicialización y configuración
+
+1. **`git init`**  
+- Crea un nuevo repositorio Git en la carpeta actual.  
+- Ejemplo: `git init`  
+
+2. **`git config --global user.name "Tu Nombre"`**  
+- Configura tu nombre de usuario para los commits.  
+
+3. **`git config --global user.email "tuemail@example.com"`**  
+- Configura tu correo electrónico asociado a los commits.  
+*/
+
+
+/* 🔹 Trabajo con repositorios remotos
+
+4. **`git clone <url>`**  
+- Descarga un repositorio remoto a tu máquina.  
+- Ejemplo: `git clone https://github.com/user/proyecto.git`  
+
+5. **`git remote add origin <url>`**  
+- Vincula tu repositorio local con uno remoto.  
+*/
+
+
+/*🔹 Estado y preparación de cambios
+6. **`git status`**  
+- Muestra el estado actual: archivos modificados, pendientes de commit, etc.  
+
+7. **`git add <archivo>`**  
+- Añade un archivo al área de *staging* (preparación para commit).  
+- Ejemplo: `git add index.html`  
+
+8. **`git add .`**  
+- Añade todos los archivos modificados al área de staging.  
+
+*/
+
+/*🔹 Guardar cambios
+9. **`git commit -m "mensaje"`**  
+- Registra los cambios en el historial con un mensaje descriptivo.  
+
+10. **`git log`**  
+- Muestra el historial de commits.  
+- Variación: `git log --oneline` para ver un resumen compacto.  
+
+*/
+
+/* 🔹 Sincronización con remoto
+11. **`git push origin main`**  
+    - Envía tus commits al repositorio remoto en la rama `main`.  
+
+12. **`git pull origin main`**  
+    - Descarga y fusiona los cambios del remoto a tu rama local.  
+
+
+
+/*🔹 Trabajo con ramas
+
+13. **`git branch`**  
+    - Lista las ramas disponibles.  
+
+14. **`git branch <nombre>`**  
+    - Crea una nueva rama.  
+
+15. **`git checkout <nombre>`**  
+    - Cambia a otra rama.  
+
+16. **`git merge <rama>`**  
+    - Fusiona la rama indicada en la rama actual.  
+
+
+
+/*🔹 Inspección y comparación
+
+17. **`git diff`**  
+- Muestra las diferencias entre archivos modificados y el último commit.  
+
+18. **`git reflog`**  
+- Muestra el historial de acciones realizadas (útil para recuperar commits perdidos).  
+*/
+
+
+//! ⚠️ Consejos prácticos
+/*
+- **Siempre usar mensajes claros en los commits**: ayudan a entender el historial.  
+- **Trabajar con ramas**: evita romper la rama principal (`main` o `master`).  
+- **Sincronizar seguido (`git pull`)**: reduce conflictos al trabajar en equipo.  
+
+*/
+
+
+
+//! --- Comandos con cd ---
 
 
 // cd: para cambiar de directorio, es decir, para moverse entre las carpetas del sistema de archivos. 
@@ -22,7 +118,7 @@ Console.WriteLine("Hello, World!");
 // EJEMPLO: si estamos en cualquier carpeta del sistema de archivos, cd ~ nos llevará al directorio de inicio del usuario, que es la carpeta C:\Users\Gabriel Blanco en Windows o /home/gabriel en Linux y macOS.
 
 
-// --- Comandos de consola: ---
+//! --- Comandos de consola: ---
 
 // dotnet run: para ejecutar el programa.
 
@@ -36,7 +132,7 @@ Console.WriteLine("Hello, World!");
 
 
 
-// --- Comandos de nombre Console: ---
+//! --- Comandos de nombre Console: ---
 
 // Console.WriteLine(): para mostrar un mensaje en la consola.
 
@@ -47,7 +143,7 @@ Console.WriteLine("Hello, World!");
 
 
 
-// --- Tipos de variables: ---
+//! --- Tipos de variables: ---
 
 // int: para almacenar números enteros, es decir, sin decimales. Ejemplo: 1, 2, -3, 0.
 
@@ -61,7 +157,7 @@ Console.WriteLine("Hello, World!");
 // string: para almacenar cadenas de texto, es decir, una secuencia de caracteres. Ejemplo: "Hola", "123", "true".
 
 
-// --- Covertidores de valores---
+//! --- Covertidores de valores---
 
 // int.Parse(): para convertir una cadena de texto a un número entero. Ejemplo: int.Parse("123") devuelve el número entero 123.
 // Ejemplo: n1 = int.Parse(Console.ReadLine()); para convertir el valor ingresado por el usuario a un número entero y almacenarlo en la variable n1.
