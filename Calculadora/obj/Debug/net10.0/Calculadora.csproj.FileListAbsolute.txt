@@ -1,0 +1,14 @@
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\bin\Debug\net10.0\Calculadora.exe
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\bin\Debug\net10.0\Calculadora.deps.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\bin\Debug\net10.0\Calculadora.runtimeconfig.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\bin\Debug\net10.0\Calculadora.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\bin\Debug\net10.0\Calculadora.pdb
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\Calculadora.AssemblyInfoInputs.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\Calculadora.AssemblyInfo.cs
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\Calculadora.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\refint\Calculadora.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\Calculadora.pdb
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\Calculadora.genruntimeconfig.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\calculadora\obj\Debug\net10.0\ref\Calculadora.dll
