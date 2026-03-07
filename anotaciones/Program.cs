@@ -2,8 +2,6 @@
 
 //! ---COMANDOS DE git ---
 
-c:\Users\Gabriel Blanco\Desktop\comandos git.png
-
 
 //* 📌 Lista paso a paso de comandos Git más usados
 
@@ -33,6 +31,7 @@ c:\Users\Gabriel Blanco\Desktop\comandos git.png
 
 
 /*🔹 Estado y preparación de cambios
+
 6. **`git status`**  
 - Muestra el estado actual: archivos modificados, pendientes de commit, etc.  
 
