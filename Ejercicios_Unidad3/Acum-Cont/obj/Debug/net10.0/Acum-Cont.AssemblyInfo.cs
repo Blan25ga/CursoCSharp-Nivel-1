@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Acum-Cont")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d79ca1b327f43b41d43e7114a756edd503f92d92")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2bfbfb634ef105e50629899b378269e915446f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Acum-Cont")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Acum-Cont")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\bin\Debug\net10.0\ejercicio4.exe
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\bin\Debug\net10.0\ejercicio4.deps.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\bin\Debug\net10.0\ejercicio4.runtimeconfig.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\bin\Debug\net10.0\ejercicio4.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\bin\Debug\net10.0\ejercicio4.pdb
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.AssemblyInfoInputs.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.AssemblyInfo.cs
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.sourcelink.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\refint\ejercicio4.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.pdb
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ejercicio4.genruntimeconfig.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad3\ejercicio4\obj\Debug\net10.0\ref\ejercicio4.dll
