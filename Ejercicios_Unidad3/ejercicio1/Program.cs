@@ -3,7 +3,7 @@
 
 int numero;
 Console.Write("Ingrese un número: "); // Se solicita al usuario que ingrese un número.
-        numero = int.Parse(Console.ReadLine()); // La variable numero se asigna con el valor ingresado por el usuario.
+numero = int.Parse(Console.ReadLine()); // La variable numero se asigna con el valor ingresado por el usuario.
 
         if (numero > 10)  
         {

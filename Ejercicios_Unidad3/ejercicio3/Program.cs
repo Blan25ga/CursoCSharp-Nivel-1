@@ -7,8 +7,10 @@ Si el importe es ARS 5000 o más, aplica un descuento del 18%.
 Hacer un programa para ingresar un importe de venta y luego muestre por pantalla el importe final con el descuento que corresponda.*/
 
 
+float impV;
 Console.Write("Ingrese el importe de la venta: "); // Muestra un mensaje en pantalla
-float impV = float.Parse(Console.ReadLine()); // Lee lo que ingresa el usuario, lo convierte a número (float) y lo guarda en impV
+impV = float.Parse(Console.ReadLine()); // Lee lo que ingresa el usuario, lo convierte a número (float) y lo guarda en impV
+
 float impFinal; // Declara la variable donde se guardará el importe final con descuento
 
         if (impV < 1000) // Si el importe es menor a 1000
