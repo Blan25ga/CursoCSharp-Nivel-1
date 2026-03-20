@@ -27,7 +27,7 @@
         Console.WriteLine("¿Desea ampliar disco? (1 = Sí, 0 = No)");
         disco = int.Parse(Console.ReadLine());
 
-        // Falta logica de programa.
+        
 
 
 
