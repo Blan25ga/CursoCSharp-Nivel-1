@@ -1,8 +1,11 @@
-﻿internal class Program
+﻿using System.Runtime.InteropServices;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        /*Una importante marca de computadoras permite elegir cierta configuración del equipo a comprar. Para ello existe la siguiente escala de precios:
+        /*Una importante marca de computadoras permite elegir cierta configuración del equipo a comprar. 
+        Para ello existe la siguiente escala de precios:
 
        //            i5 (1)	     i7 (2)	     i9 (3)
         8 RAM (1)	USD 800	    USD 900	    USD 1200
@@ -16,7 +19,7 @@
 
 
         int procesador, ram, disco;
-
+        float precio = 0f;
 
         Console.WriteLine("Ingrese Procesador deseado:");
         procesador = int.Parse(Console.ReadLine());
@@ -27,9 +30,67 @@
         Console.WriteLine("¿Desea ampliar disco? (1 = Sí, 0 = No)");
         disco = int.Parse(Console.ReadLine());
 
+        if (procesador == 1)
+        {
+            switch (ram)
+            {
+                case 1: 
+                    precio = 800;
+                    break;
+                case 2:
+                    precio = 900;
+                    break;
+                default:
+                    precio = 1000;
+                    break;
+            }
+
+        }
+        else if (procesador == 2)
+        {
+            switch (ram)
+            {
+                case 1: 
+                    precio = 900;
+                    break;
+                case 2:
+                    precio = 1000;
+                    break;
+                default:
+                    precio = 1400;
+                    break;
+            }
+            
+        }
+        else if (procesador == 3)
+        {
+            switch (ram)
+            {
+                case 1: 
+                    precio = 1200;
+                    break;
+                case 2:
+                    precio = 1400;
+                    break;
+                default:
+                    precio = 2000;
+                    break;
+            }
+            
+        }
+        else
+        {
+            Console.WriteLine("Procesador no valido");
+        }
         
-
-
-
+        if (disco == 1)
+        {
+            precio+=300;
+            Console.WriteLine("El valor a pagar es: " + precio);
+        }
+        else
+        {
+            Console.WriteLine("No extendio disco, el valor a pagar es: $ " + precio);
+        }
     }
 }
