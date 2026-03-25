@@ -9,7 +9,7 @@
 
         }*/
 
-    //*Ejemplo 2:
+        //*Ejemplo 2:
         /*int n, promedio, suma = 0;
 
         for (int x = 0; x < 5; x++){
@@ -20,9 +20,9 @@
             promedio = suma / 5; //!se declara "AFUERA DEL FOR" el promedio que queremos saber de los 10 alumnos.
             Console.WriteLine("El promedio de las notas es : " + promedio);
         */
-            
-            // WHILE 
-            // (MIENTRAAAAS ... SE DE ALGO... EJECUTA)
+
+        // WHILE 
+        // (MIENTRAAAAS ... SE DE ALGO... EJECUTA)
         /*    
         int a, cont =0;
         Console.WriteLine("ingresa un numero: ");//* Se pide el primer numero afuera, si cumple la condicion del while, entra a hacer el recorrido.
@@ -39,9 +39,10 @@
 
         // Ciclo DO
 
-        int a, cont = 0; 
+        int a, cont = 0;
 
-        do{ //! en el DO, directamente, pide, da la primer vuelta, y despues pregunta al WHILE, si sigue iterendo.
+        do
+        { //! en el DO, directamente, pide, da la primer vuelta, y despues pregunta al WHILE, si sigue iterendo.
             Console.WriteLine("ingresa un numero: ");
             a = int.Parse(Console.ReadLine());
             cont++;
