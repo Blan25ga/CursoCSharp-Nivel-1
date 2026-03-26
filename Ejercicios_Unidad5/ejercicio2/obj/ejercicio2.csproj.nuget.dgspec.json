@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj": {}
+    "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj": {
+    "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj",
         "projectName": "ejercicio2",
-        "projectPath": "c:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj",
+        "projectPath": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\ejercicio2.csproj",
         "packagesPath": "C:\\Users\\Gabriel Blanco\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel Blanco\\Desktop\\Curso C# Nivel 1\\Ejercicios_Unidad5\\ejercicio2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gabriel Blanco\\AppData\\Roaming\\NuGet\\NuGet.Config"
