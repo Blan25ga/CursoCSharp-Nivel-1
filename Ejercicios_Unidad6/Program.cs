@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-//! Ciclos COMBINADOS // LOTES Y SUBLOTES!
+//TODO: //------------Ciclos COMBINADOS // LOTES Y SUBLOTES! ------------------//
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -117,39 +118,75 @@ internal class Program
                 Console.WriteLine("Número aceptado: " + n);
         }
 
-        // CORTE DE CONTROL //
+        //TODO:          //----------- CORTE DE CONTROL-------------- //
 
-        int edad;
+        //! La estructura es casi siempre, "While dentro de While"
 
-        while (true) // while externo: recorre equipos hasta que se ingrese -1 (fin total)
+
+        // Variables
+        int codEquipo, equipoActual;
+        float sueldo;
+
+        // Acumuladores generales
+        float sumaGeneral = 0;
+        int contadorGeneral = 0;
+
+        // Primera carga de datos
+        Console.WriteLine("Ingrese sueldo (0 para terminar): ");
+        sueldo = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Ingrese código de equipo: ");
+        codEquipo = int.Parse(Console.ReadLine());
+
+        // Corte general: mientras el sueldo sea mayor a 0
+        while (sueldo > 0)
         {
-            Console.WriteLine("Nuevo equipo (ingrese -1 para terminar): ");
-            edad = int.Parse(Console.ReadLine());
+            // Guardamos el equipo actual
+            equipoActual = codEquipo;
 
-            if (edad == -1) break; // corte total
+            // Acumuladores por equipo
+            float sumaEquipo = 0;
+            int contadorEquipo = 0;
 
-            int suma = 0, contador = 0;
-
-            // while interno: recorre jugadores hasta que se ingrese 0 (corte de equipo)
-            while (edad != 0)
+            // Corte de control: mientras el código de equipo no cambie
+            while (codEquipo == equipoActual && sueldo > 0)
             {
-                suma += edad;
-                contador++;
+                // Procesar registro
+                sumaEquipo += sueldo;
+                contadorEquipo++;
 
-                Console.Write("Ingrese edad (0 para terminar equipo, -1 para terminar todo): ");
-                edad = int.Parse(Console.ReadLine());
+                sumaGeneral += sueldo;
+                contadorGeneral++;
 
-                if (edad == -1) break; // corte total dentro del sublote
+                // Nueva carga de datos
+                Console.WriteLine("Ingrese sueldo (0 para terminar): ");
+                sueldo = float.Parse(Console.ReadLine());
+
+                Console.WriteLine("Ingrese código de equipo: ");
+                codEquipo = int.Parse(Console.ReadLine());
+                /*si al cargar datos, cargo otro codigo de equipo distinto...cambia de equipo, ya que pregunta a la
+                condicion del segundo while y al ser distinto, sale.... y modifica el valor de la primer condicion 
+                de "equipoActual" en el primer while y vuelve a entrar para seguir cargando*/
+
             }
 
-            if (contador > 0)
+            // Resultados por equipo
+            if (contadorEquipo > 0)
             {
-                double promedio = (double)suma / contador;
-                Console.WriteLine("Promedio de edad del equipo: " + promedio);
+                float promedioEquipo = sumaEquipo / contadorEquipo;
+                Console.WriteLine("Promedio de sueldos del equipo " + equipoActual + ": " + promedioEquipo);
+                Console.WriteLine("-----------------------------------");
             }
-
-            if (edad == -1) break; // salir del bucle externo también
         }
+
+        // Resultados generales
+        if (contadorGeneral > 0)
+        {
+            float promedioGeneral = sumaGeneral / contadorGeneral;
+            Console.WriteLine("Promedio general de sueldos: " + promedioGeneral);
+        }
+
+        Console.WriteLine("Fin de la carga de datos.");
 
     }
 }
