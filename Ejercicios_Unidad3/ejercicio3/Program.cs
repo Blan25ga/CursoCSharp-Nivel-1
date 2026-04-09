@@ -21,12 +21,12 @@ float impFinal; // Declara la variable donde se guardará el importe final con d
         }
         else if (impV >= 1000 && impV < 5000) // Si el importe es 1000 o más pero menor a 5000
         {
-            impFinal = impV * 0.90f; // Aplica un descuento del 10% (multiplica por 0.90)
+            impFinal = impV * 0.90F; // Aplica un descuento del 10% (multiplica por 0.90)
         Console.WriteLine("El importe final con el 10% de descuento es: ARS " + impFinal);
         }
         else // Si el importe es 5000 o más
         {
-            impFinal = impV * 0.82f; // Aplica un descuento del 18% (multiplica por 0.82)
+            impFinal = impV * 0.82F; // Aplica un descuento del 18% (multiplica por 0.82)
         Console.WriteLine("El Importe final con 18% de descuento: ARS " + impFinal);
         }
 

@@ -12,3 +12,4 @@ C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\primer-programa\obj\Debug\net10
 C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\primer-programa\obj\Debug\net10.0\primer-programa.pdb
 C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\primer-programa\obj\Debug\net10.0\primer-programa.genruntimeconfig.cache
 C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\primer-programa\obj\Debug\net10.0\ref\primer-programa.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\primer-programa\obj\Debug\net10.0\primer-programa.sourcelink.json

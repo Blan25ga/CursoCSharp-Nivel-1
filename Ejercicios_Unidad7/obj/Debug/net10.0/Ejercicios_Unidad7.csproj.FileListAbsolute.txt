@@ -1,0 +1,15 @@
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.AssemblyInfoInputs.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.AssemblyInfo.cs
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.sourcelink.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\bin\Debug\net10.0\Ejercicios_Unidad7.exe
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\bin\Debug\net10.0\Ejercicios_Unidad7.deps.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\bin\Debug\net10.0\Ejercicios_Unidad7.runtimeconfig.json
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\bin\Debug\net10.0\Ejercicios_Unidad7.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\bin\Debug\net10.0\Ejercicios_Unidad7.pdb
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\refint\Ejercicios_Unidad7.dll
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.pdb
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\Ejercicios_Unidad7.genruntimeconfig.cache
+C:\Users\Gabriel Blanco\Desktop\Curso C# Nivel 1\Ejercicios_Unidad7\obj\Debug\net10.0\ref\Ejercicios_Unidad7.dll
