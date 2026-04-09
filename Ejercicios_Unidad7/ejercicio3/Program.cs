@@ -1,0 +1,10 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+
+//3. Hacer un programa que solicite una cadena de caracteres y dos caracteres sueltos (tres ingresos). 
+//El programa deberá generar una cadena donde todas las ocurrencias del primer carácter dado hayan sido reemplazadas por el segundo. 
+/*Mostrar el resultado en pantalla. 
+Ejemplo:
+CADENA FUENTE: “La mar estaba serena"
+CARÁCTER 1: ‘a’ CARÁCTER 2: ‘i’
+CADENA RESULTADO: “Li mir estibi sereni"*/
