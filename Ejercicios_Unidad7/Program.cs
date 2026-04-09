@@ -12,7 +12,7 @@ internal class Program
         for (int x = 0; x < v.Length; x++)
         {
             Console.Write("Ingrese un número para la posición " + x + ": ");
-            v[x] = int.Parse(Console.ReadLine()); // guardamos el número en la posición x
+            v[x] = int.Parse(Console.ReadLine()); // guardamos el número en la posición x!
         }
         //* Recorremos el vector y mostramos cada valor junto con su índice.
         Console.WriteLine("Valores cargados en el vector:");
