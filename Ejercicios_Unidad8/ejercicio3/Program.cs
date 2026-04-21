@@ -43,18 +43,19 @@ internal class Program
 
     static bool primo(int n)
     {
-        if (n < 2) return false;
-        if (n == 2) return true;
+        int cont = 0;
 
-        // verifico divisores desde 2 hasta n-1
-        for (int x = 2; x < n; x++)
+
+        for (int x = 1; x <= n; x++)
         {
-            if (n % x == 0) // si es divisible por x
+            if (n % x == 0)
             {
-                return false;   // no es primo
+                cont++;
             }
         }
-
-        return true; // si no encontra divisores, es primo
+        if (cont == 2)
+            return true;
+        else
+            return false;
     }
 }
