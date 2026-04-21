@@ -1,6 +1,60 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
-//3. Hacer una función llamada “primo” que reciba un número entero y devuelva 1 si el número es primo o cero si no lo es. 
-//Hacer un programa para ingresar números. El lote corta cuando se ingresa un número cero. 
-//Informar el promedio teniendo en cuenta sólo los números primos.
+
+using System.Globalization;
+
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        //3. Hacer una función llamada “primo” que reciba un número entero y devuelva 1 si el número es primo o cero si no lo es. 
+        //Hacer un programa para ingresar números. El lote corta cuando se ingresa un número cero. 
+        //Informar el promedio teniendo en cuenta sólo los números primos.
+
+        int num = 1;
+        int cont = 0;
+        int acuPrimos = 0;
+
+        Console.WriteLine("Ingresa un número, inregresa 'cero(0)' para cortar: ");
+
+        while (num != 0)
+        {
+            num = int.Parse(Console.ReadLine());
+            if (primo(num))
+            {
+                cont++;
+                acuPrimos += num;
+            }
+            Console.WriteLine("Ingresa otro numero,'cero(0)' para cortar: ");
+        }
+
+        if (cont > 0)
+        {
+            double promedio = (double)acuPrimos / cont;
+            Console.WriteLine("El promedio de los números primos es: " + promedio);
+        }
+        else
+        {
+            Console.WriteLine("No se ingresaron números primos.");
+        }
+
+    }
+
+    static bool primo(int n)
+    {
+        if (n < 2) return false;
+        if (n == 2) return true;
+
+        // verifico divisores desde 2 hasta n-1
+        for (int x = 2; x < n; x++)
+        {
+            if (n % x == 0) // si es divisible por x
+            {
+                return false;   // no es primo
+            }
+        }
+
+        return true; // si no encontra divisores, es primo
+    }
+}
