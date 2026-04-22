@@ -173,7 +173,7 @@
 //! Ejemplo de progama basico con datos:
 
 //declaraion de variables
-int numero1; 
+int numero1;
 int numero2;
 int resultado;
 
@@ -189,6 +189,383 @@ numero2 = int.Parse(Console.ReadLine());
 resultado = numero1 + numero2;
 //mostrar el resultado de la suma en la consola
 Console.WriteLine(resultado);
+
+//!     UNIDAD 5
+//? CICLO FOR AND WHILE
+
+for (int x = 0; x < 5; x++)
+{ // inicializacion de ciclo for.
+    Console.WriteLine("Hello World!");
+
+}
+
+//*Ejemplo 2:
+int n, promedio, suma = 0;
+
+for (int x = 0; x < 5; x++)
+{
+    Console.WriteLine("Ingrese la nota: ");
+    n = int.Parse(Console.ReadLine());
+    suma += n;// se le asigna la nota y se le suma a "suma" la nueva nota ingresada.
+}
+promedio = suma / 5; //!se declara "AFUERA DEL FOR" el promedio que queremos saber de los 10 alumnos.
+Console.WriteLine("El promedio de las notas es : " + promedio);
+
+
+// WHILE 
+// (MIENTRAAAAS ... SE DE ALGO... EJECUTA)
+
+int a, cont = 0;
+Console.WriteLine("ingresa un numero: ");//* Se pide el primer numero afuera, si cumple la condicion del while, entra a hacer el recorrido.
+a = int.Parse(Console.ReadLine());
+
+while (a != 0)
+{ //! Condicion del While. Este va apedir numero mientras sean diferente a cero, al ingresar un cero, corta la itereción.
+    cont++;     //* en el contador, se increminta cada numero ingresado. y muestra la cantidad de numeros ingresados.( sean 1 o 20 ej)
+    Console.WriteLine("ingresa un numero: ");
+    a = int.Parse(Console.ReadLine());
+}
+Console.WriteLine("Ingresaste una cantidad de : " + cont + " Numeros");
+//La cosnola lanza el mensaje con el total de numeros guardados en la varaible "cont".
+
+
+// Ciclo DO
+
+int a, cont = 0;
+
+do
+{ //! en el DO, directamente, pide, da la primer vuelta, y despues pregunta al WHILE, si sigue iterendo.
+    Console.WriteLine("ingresa un numero: ");
+    a = int.Parse(Console.ReadLine());
+    cont++;
+} while (a != 0);
+Console.WriteLine("Ingresaste una cantidad de : " + cont + " Numeros");
+
+//TODO: //------------Ciclos COMBINADOS // LOTES Y SUBLOTES! ------------------//
+
+
+// CICLOS COMBINADOS:
+//*for con for 
+//*Ejemplo 1:
+//?Ejemplo: cargar edades de 5 equipos y sacar promedio.
+
+int prom, acu, n;
+for (int x = 0; x < 5; x++)
+{
+    acu = 0;
+    for (int y = 0; y < 20; y++)
+    {
+        Console.WriteLine("Ingrese la edad: ");
+        n = int.Parse(Console.ReadLine());
+        acu += n;
+    }
+    prom = acu / 20;
+    Console.WriteLine("El promedio de edad es: " + prom);
+}
+
+
+
+
+//*Ejemplo 2: (equipos mas jugadores)
+int edad;
+int cont;
+double promedio;
+
+// Bucle para recorrer los 5 equipos
+for (int equipo = 1; equipo <= 5; equipo++)
+{
+    Console.WriteLine("Equipo número: " + equipo);
+    cont = 0;// reiniciamos acumulador al inicio de cada equipo
+
+    for (int jugador = 1; jugador <= 20; jugador++)// Bucle para recorrer los 20 jugadores
+    {
+        Console.Write("Edad del jugador " + jugador + ": ");
+        edad = int.Parse(Console.ReadLine());
+
+        cont += edad; // acumulamos edades
+    }
+    // cálculo del promedio
+    promedio = cont / 20;
+    Console.WriteLine("Promedio de edad del equipo " + equipo + ": " + promedio);
+}
+
+
+//*for con while ( El for pide 3 números, y el while asegura que cada uno sea válido.)
+//?Ejemplo: pedir 3 números y validar que cada uno sea positivo.
+
+for (int i = 1; i <= 3; i++) // ciclo externo
+{
+    int n;
+    bool valido = false;
+
+    while (!valido) // ciclo interno
+    {
+        Console.Write("Ingresa un número positivo: ");
+        n = int.Parse(Console.ReadLine());
+
+        if (n > 0)
+        {
+            Console.WriteLine("Número aceptado: " + n);
+            valido = true; // rompe el while
+        }
+        else
+        {
+            Console.WriteLine("Error, debe ser positivo.");
+        }
+    }
+}
+
+//* While con for ( El while controla los lotes, el for recorre los elementos dentro de cada lote.)
+//?Ejemplo: procesar lotes de datos, cada lote con 3 elementos.
+
+int lote = 1;
+
+while (lote <= 2) // ciclo externo: cantidad de lotes
+{
+    Console.WriteLine("Lote " + lote);
+
+    for (int i = 1; i <= 3; i++) // ciclo interno: elementos del lote
+    {
+        Console.Write("Ingresa número del lote " + lote + ": ");
+        int n = int.Parse(Console.ReadLine());
+        Console.WriteLine("Número ingresado: " + n);
+    }
+
+    lote++;
+}
+
+//*While con While ( El while externo controla la salida con 0, el interno valida que no se ingresen negativos.)
+//?Ejemplo: pedir números hasta que el usuario ingrese 0, y dentro validar que sean positivos.
+
+int n = -1;
+
+while (n != 0) // ciclo externo: se repite hasta que se ingrese 0
+{
+    Console.Write("Ingresa un número (0 para salir): ");
+    n = int.Parse(Console.ReadLine());
+
+    int temp = n;
+    while (temp < 0 && temp != 0) // ciclo interno: valida que no sea negativo
+    {
+        Console.Write("Número inválido, ingresa positivo o 0: ");
+        temp = int.Parse(Console.ReadLine());
+        n = temp;
+    }
+
+    if (n != 0)
+        Console.WriteLine("Número aceptado: " + n);
+}
+
+//TODO:          //----------- CORTE DE CONTROL-------------- //
+
+//! La estructura es casi siempre, "While dentro de While"
+
+
+// Variables
+int codEquipo, equipoActual;
+float sueldo;
+
+// Acumuladores generales
+float sumaGeneral = 0;
+int contadorGeneral = 0;
+
+// Primera carga de datos
+Console.WriteLine("Ingrese sueldo (0 para terminar): ");
+sueldo = float.Parse(Console.ReadLine());
+
+Console.WriteLine("Ingrese código de equipo: ");
+codEquipo = int.Parse(Console.ReadLine());
+
+// Corte general: mientras el sueldo sea mayor a 0
+while (sueldo > 0)
+{
+    // Guardamos el equipo actual
+    equipoActual = codEquipo;
+
+    // Acumuladores por equipo
+    float sumaEquipo = 0;
+    int contadorEquipo = 0;
+
+    // Corte de control: mientras el código de equipo no cambie
+    while (codEquipo == equipoActual && sueldo > 0)
+    {
+        // Procesar registro
+        sumaEquipo += sueldo;
+        contadorEquipo++;
+
+        sumaGeneral += sueldo;
+        contadorGeneral++;
+
+        // Nueva carga de datos
+        Console.WriteLine("Ingrese sueldo (0 para terminar): ");
+        sueldo = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("Ingrese código de equipo: ");
+        codEquipo = int.Parse(Console.ReadLine());
+        /*si al cargar datos, cargo otro codigo de equipo distinto...cambia de equipo, ya que pregunta a la
+        condicion del segundo while y al ser distinto, sale.... y modifica el valor de la primer condicion 
+        de "equipoActual" en el primer while y vuelve a entrar para seguir cargando*/
+
+    }
+
+    // Resultados por equipo
+    if (contadorEquipo > 0)
+    {
+        float promedioEquipo = sumaEquipo / contadorEquipo;
+        Console.WriteLine("Promedio de sueldos del equipo " + equipoActual + ": " + promedioEquipo);
+        Console.WriteLine("-----------------------------------");
+    }
+}
+
+// Resultados generales
+if (contadorGeneral > 0)
+{
+    float promedioGeneral = sumaGeneral / contadorGeneral;
+    Console.WriteLine("Promedio general de sueldos: " + promedioGeneral);
+}
+
+Console.WriteLine("Fin de la carga de datos.");
+
+
+//TODO: ----- Vectores ----------!!! 
+
+//* Declaracion de vector de enteros con 5 posiciones
+
+int[] v = new int[5];
+
+// Cargar valores en el vector usando un bucle
+for (int x = 0; x < v.Length; x++)
+{
+    Console.Write("Ingrese un número para la posición " + x + ": ");
+    v[x] = int.Parse(Console.ReadLine()); // guardamos el número en la posición x!
+}
+//* Recorremos el vector y mostramos cada valor junto con su índice.
+Console.WriteLine("Valores cargados en el vector:");
+for (int x = 0; x < v.Length; x++)
+{
+    Console.WriteLine("Posición " + x + ": " + v[x]);
+}
+
+int suma = 0;
+for (int x = 0; x < v.Length; x++)
+{
+    suma += v[x]; // acumulamos cada número
+}
+Console.WriteLine("\nLa suma total es: " + suma);
+//La suma nos sirve para calcular porcentajes.
+
+Console.WriteLine("\nPorcentaje de cada número respecto al total:");
+
+for (int x = 0; x < 5; x++)
+{
+    // calculamos el porcentaje de forma básica
+    double porcentaje = v[x] * 100.0 / suma;
+
+    Console.WriteLine("Número " + v[x] + " → " + porcentaje + "%");
+}
+
+////////-----------///////////
+//EJEMPLOS 2
+
+//int (long, short)
+//float --- double ---decimal
+
+// Vectores para guardar temperaturas de 31 días
+double[] muestraMatutina = new double[31];
+double[] muestraVespertina = new double[31];
+double[] muestraNocturna = new double[31];
+
+int dia;
+double temperatura;
+
+// --- Carga de datos matutinos ---
+Console.WriteLine("Ingresa datos Matutinos");
+for (int x = 0; x < 31; x++)
+{
+    Console.Write("Ingrese día (1 a 31): ");
+    dia = int.Parse(Console.ReadLine());
+    Console.Write("Ingrese temperatura registrada: ");
+    temperatura = double.Parse(Console.ReadLine());
+
+    muestraMatutina[dia - 1] = temperatura;
+}
+
+// --- Carga de datos vespertinos ---
+Console.WriteLine("\nIngresa datos Vespertinos");
+for (int x = 0; x < 31; x++)
+{
+    Console.Write("Ingrese día (1 a 31): ");
+    dia = int.Parse(Console.ReadLine());
+    Console.Write("Ingrese temperatura registrada: ");
+    temperatura = double.Parse(Console.ReadLine());
+
+    muestraVespertina[dia - 1] = temperatura;
+}
+
+// --- Carga de datos nocturnos ---
+Console.WriteLine("\nIngresa datos Nocturnos");
+for (int x = 0; x < 31; x++)
+{
+    Console.Write("Ingrese día (1 a 31): ");
+    dia = int.Parse(Console.ReadLine());
+    Console.Write("Ingrese temperatura registrada: ");
+    temperatura = double.Parse(Console.ReadLine());
+
+    muestraNocturna[dia - 1] = temperatura;
+}
+
+// --- Lectura y cálculo de promedios ---
+double acuMatutina = 0, acuVespertina = 0, acuNocturna = 0;
+
+for (int x = 0; x < 31; x++)
+{
+    acuMatutina += muestraMatutina[x];
+    acuVespertina += muestraVespertina[x];
+    acuNocturna += muestraNocturna[x];
+}
+
+Console.WriteLine("Promedio Matutino: " + (acuMatutina / 31));
+Console.WriteLine("Promedio Vespertino: " + (acuVespertina / 31));
+Console.WriteLine("Promedio Nocturno: " + (acuNocturna / 31));
+
+
+//Todo: -------- FUNCIONES --------
+
+//private static void Main(string[] args) //programa principal
+{ //*primer cuerpo
+
+    //! Programa principal donde se ejecuta paso a paso el programa.
+    //! Hasta encontrar una INVOCACION DE FUNCION.
+    //! Para luego seguir con el recorrido de codigo.
+    int n1 = 0, n2 = 0, resultado; // declaro variables
+
+    pedirDatos(ref n1, ref n2); //* invocacion de funcion por referencia.
+
+    resultado = sumar(n1, n2);//* ---- invocación de función por parametro.
+                              //fin de logica
+
+    Console.WriteLine("El resultado es: " + resultado);
+    //otro metodo, en donde tambien devuelve el valor concatenando directamente la funcion.
+
+}
+
+//  ---- Funciones : siempre se declaran fuera del "Programa Principal", fuera del primer cuerpo.------
+//* Declaracion de funcion "sumar".
+static int sumar(int a, int b)// solicita 2 parametros enteros!
+{
+    int r;
+    r = a + b;//este toma los parametros ingresados por el usuario (n1 y n2)
+    return r;
+    //return: se retorna el resultado de la funcion "sumar", el cual se asignara a/en "resultado" (del main)
+}
+
+static void pedirDatos(ref int j, ref int h) //* declaracion de funcion para pedir datos al usuario!!
+{
+    Console.WriteLine("Ingresa un numero"); // carga mas guardado de datos
+    j = int.Parse(Console.ReadLine());
+    Console.WriteLine("Ingresa otro numero..");
+    h = int.Parse(Console.ReadLine());
+}
 
 
 
